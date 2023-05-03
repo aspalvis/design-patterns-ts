@@ -1,4 +1,4 @@
-import { Tool } from "./Tool";
+import { Tool } from "../Interfaces/Tool";
 
 export class BrushTool implements Tool {
   mouseDown(): void {

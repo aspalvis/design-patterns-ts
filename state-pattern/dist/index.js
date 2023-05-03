@@ -1,1 +1,12 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const BrushTool_1 = require("./Classes/BrushTool");
+const Canvas_1 = require("./Classes/Canvas");
+const NewTool_1 = require("./Classes/NewTool");
+const canvas = new Canvas_1.Canvas();
+canvas.currentTool = new BrushTool_1.BrushTool();
+canvas.mouseDown();
+canvas.mouseUp();
+canvas.currentTool = new NewTool_1.SomeNewTool();
+canvas.mouseDown();
+canvas.mouseUp();

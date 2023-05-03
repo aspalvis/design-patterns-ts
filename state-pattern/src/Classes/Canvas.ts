@@ -1,11 +1,12 @@
-import { Tool } from "./Tool";
+import { Tool } from "../Interfaces/Tool";
 
 export class Canvas {
   private _currentTool!: Tool;
-  public get currentTool(): Tool {
+  get currentTool(): Tool {
     return this._currentTool;
   }
-  public set currentTool(value: Tool) {
+  set currentTool(value: Tool) {
+    console.log("Tool Changed");
     this._currentTool = value;
   }
   mouseDown(): void {

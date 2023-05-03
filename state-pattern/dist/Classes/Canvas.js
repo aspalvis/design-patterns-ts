@@ -6,6 +6,7 @@ class Canvas {
         return this._currentTool;
     }
     set currentTool(value) {
+        console.log("Tool Changed");
         this._currentTool = value;
     }
     mouseDown() {
