@@ -1,0 +1,12 @@
+{
+  "name": "design-patterns-ts",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "memento": "cd ./memento && npm start",
+    "state": "cd ./state-pattern && npm start"
+  },
+  "license": "ISC"
+}
