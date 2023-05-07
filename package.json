@@ -6,7 +6,8 @@
   "author": "",
   "scripts": {
     "memento": "cd ./memento && npm start",
-    "state": "cd ./state-pattern && npm start"
+    "state": "cd ./state-pattern && npm start",
+    "iterator": "cd ./iterator-pattern && npm start"
   },
   "license": "ISC"
 }
